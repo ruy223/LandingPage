@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "rubik", Arial, Helvetica, sans-serif;
+}
+
+.first-zone{
+    background-color: rgb(36, 35, 35);
+}
+
+#headerlogo{
+    font-size: 24px;
+    color:#d88531;
+}
+
+.header-link{
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-left,.navbar-right{
+    display: flex;
+    width: 50%;
+}
+
+.navbar-right{
+    justify-content: space-around;
+}
