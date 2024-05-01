@@ -119,12 +119,19 @@ h2{
 
 .content-box{
     border: 3px solid #d88531;
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 2px;
 }
 
 .p-second{
     text-align: center;
     font-size: 18px;
+}
+
+.picture1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
 }
