@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(36, 35, 35);
 }
 
 body{
     font-family: "rubik", Arial, Helvetica, sans-serif;
 }
+
+/* EVERYTHING AFTER IS FIRST ZONE */
 
 .first-zone{
     background-color: rgb(36, 35, 35);
@@ -41,6 +42,9 @@ ul{
 .navbar-right{
     justify-content: space-around;
 }
+
+/* EVERYTHING AFTER IS SECOND ZONE */
+
 
 .second-zone{
     display: flex;
@@ -87,4 +91,40 @@ h1{
 
 .speeches{
     margin: 50px;
+}
+
+/* EVERYTHING AFTER IS THIRD ZONE */
+
+.third-zone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #d88531;
+    text-align: center;
+}
+
+.third-content-box-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+}
+
+
+.content-box{
+    border: 3px solid #d88531;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.p-second{
+    text-align: center;
+    font-size: 18px;
 }
