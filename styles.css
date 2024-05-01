@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(36, 35, 35);
 }
 
 body{
@@ -39,4 +40,51 @@ ul{
 
 .navbar-right{
     justify-content: space-around;
+}
+
+.second-zone{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#d88531
+}
+
+.p-first{
+    font-size: 18px;
+    color: white;
+}
+
+#button{
+    background-color: #d88531;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 25px;
+    border: 1px #d88531;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.second-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.second-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.speeches{
+    margin: 50px;
 }
