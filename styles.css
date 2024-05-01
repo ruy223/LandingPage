@@ -135,3 +135,33 @@ h2{
     object-fit: contain;
     overflow: hidden;
 }
+
+/* fourth zone */
+
+.fourth-zone{
+    background-color: #e5e7eb;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 600;
+    font-style: italic;
+    color: #d88531;
+    text-align: center;
+}
+
+.p-third{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#p-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
